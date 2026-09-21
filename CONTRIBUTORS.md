@@ -1,15 +1,15 @@
-# Contributing to Sidecar
+# Contributing to sidecar
 
 ## Development Setup
 
-Sidecar is a C++17 application built with CMake. On Ubuntu or WSL, install the base build tools and the currently required PortAudio development package:
+sidecar is a C++17 application built with CMake. On Ubuntu or WSL, install the base build tools and the currently required PortAudio development package:
 
 ```bash
 sudo apt update
 sudo apt install build-essential cmake portaudio19-dev
 ```
 
-Configure and build from the `Sidecar` directory:
+Configure and build from the `sidecar` directory:
 
 ```bash
 cmake -S . -B build

@@ -1,4 +1,4 @@
-# Sidecar
+# sidecar
 
 A small C++17 application built with CMake and PortAudio.
 
@@ -13,7 +13,7 @@ sudo apt install build-essential cmake portaudio19-dev
 
 ## Build
 
-From this directory (`Sidecar`), configure the project and create a separate build directory:
+From this directory (`sidecar`), configure the project and create a separate build directory:
 
 ```bash
 cmake -S . -B build
